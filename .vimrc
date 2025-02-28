@@ -14,6 +14,9 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+Y
 
+map j gj
+map k gk
+
 set mouse=a
 set number
 
