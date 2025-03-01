@@ -14,13 +14,25 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>Y "+Y
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 map j gj
 map k gk
 
 set mouse=a
 set number
 
-hi Normal guibg=NONE ctermbg=NONE
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
 
 syntax on
 filetype on
+filetype plugin indent on
+
+hi Normal guibg=NONE ctermbg=NONE
+set background=dark
